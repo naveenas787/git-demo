@@ -9,12 +9,12 @@ pipeline {
         }
 		stage('Test') {
             steps {
-                echo 'Test app'
+                echoo 'Test app'
             }
         }
 		stage('Deploy') {
             steps {
-                echoo 'Deploy app'
+                echo 'Deploy app'
             }
         }
     }
