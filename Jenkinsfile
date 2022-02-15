@@ -18,12 +18,4 @@ pipeline {
             }
         }
     }
-	post
-		{
-		  failure
-		  {
-		  mail bcc: '', body: 'hello', cc: 'nischithanishu18@gmail.com', from: '', replyTo: '', subject: 'test-jenkins', to: 'asnaveen787@gamil.com'
-		  }
-		
-		}
 }
